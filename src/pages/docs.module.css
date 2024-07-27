@@ -1,0 +1,39 @@
+﻿.docsContainer {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.docsList {
+    list-style-type: none;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #1a1a1a;
+}
+
+.docsList li {
+    margin-bottom: 10px;
+}
+
+.docsList a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.docsList a:hover {
+    text-decoration: underline;
+}
+
+.navigationButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.navigationButtons button {
+    border: #5050ff solid 1px;
+}
