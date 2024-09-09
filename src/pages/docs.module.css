@@ -1,5 +1,4 @@
 ﻿.docsContainer {
-    padding: 20px;
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -12,10 +11,11 @@
     display: flex;
     flex-direction: column;
     background-color: #1a1a1a;
+    min-width: 150px;
 }
 
 .docsList li {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .docsList a {
@@ -25,6 +25,10 @@
 
 .docsList a:hover {
     text-decoration: underline;
+}
+
+.docsListSelectedItem {
+    font-weight: bold;
 }
 
 .navigationButtons {

@@ -29,9 +29,9 @@ const Docs = ({}: DocsProps) => {
             <h1>Documentation</h1>
             <div className={styles.docsContainer}>
                 <ul className={styles.docsList}>
-                    {docs.map(doc => (
+                    {docs.map((doc, index) => (
                         <li key={doc.id}>
-                            <Link href={`/docs/${doc.id}`}>{doc.title}</Link>
+                            <Link href={`/docs/${doc.id}`} className={index == currentIndex ? styles.docsListSelectedItem : ""}>{doc.title}</Link>
                         </li>
                     ))}
                 </ul>
