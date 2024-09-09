@@ -7,7 +7,7 @@ const Introduction = ({}: SetupProps) => (
     <div>
         <h2>Introduction to Decade</h2>
         <p>
-            Decade is a groundbreaking compiled object-oriented runtime that combines the efficiency of low-level
+            Decade is a groundbreaking compiled procedural language with paradigms and a lightweight runtime that combines the efficiency of low-level
             programming with the convenience of high-level language features. Designed with performance and developer
             experience in mind, Decade compiles directly to assembly, ensuring exceptional speed and efficiency in
             execution. This streamlined approach allows Decade to offer near-native performance while maintaining a rich
@@ -17,8 +17,7 @@ const Introduction = ({}: SetupProps) => (
             At its core, Decade supports a fast and efficient garbage collection mechanism, leveraging shared pointers
             for every class instance. This design choice not only optimises memory management but also simplifies the
             development process by reducing the need for manual memory handling. The runtime support for polymorphism
-            and metaprogramming adds a layer of flexibility, allowing developers to write robust, reusable code with
-            ease.
+            and metaprogramming adds a layer of flexibility, allowing developers to write robust, reusable code with ease.
         </p>
         <p>
             Decade is tailored for low-level developers and those familiar with languages such as C# and C++, bridging
