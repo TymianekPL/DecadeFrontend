@@ -14,6 +14,13 @@
     min-width: 150px;
 }
 
+@media (prefers-color-scheme: light) {
+    .docsList {
+        background-color: #eee;
+    }
+}
+
+
 .docsList li {
     margin-bottom: 15px;
 }
