@@ -85,7 +85,7 @@ nav {
     flex-direction: row;
     justify-content: right;
     gap: 20px;
-    background-color: #1e1e1e;
+    background-color: #eee;
     padding: 10px 30px;
     border-radius: 15px;
 }
